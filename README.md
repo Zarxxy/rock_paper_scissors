@@ -2,4 +2,5 @@
 
 <h2>Overview<h2>
 
-<p>A simple Rock paper scissors game, inside the browsers console, created for the Javascript Fullstack curriculum on The Odin Project.<p>
+<p>A simple Rock-Paper-Scissors game, inside the browsers console. 
+Created for the Javascript Fullstack curriculum on The Odin Project.<p>
