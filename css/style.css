@@ -1,0 +1,43 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(107, 106, 106);
+}
+
+h1 {
+    text-align: center;        
+    font-size: 40px;
+    color: rgb(255, 255, 255);  
+    margin: 30px;                                                                  
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);    
+    color: rgb(107, 106, 106);
+    display: inline-block;
+    border: 0.1em solid black;
+    margin: 15px;
+    width: 120px;
+}
+
+button:hover {
+    color:#000000;
+    background-color:rgb(107, 106, 106);
+}
+
+.height {
+    height: 250px;
+}
+
+.btnContainer {
+    display: flex;       
+    justify-content:center;
+    margin: 20px;
+}
+

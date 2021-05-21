@@ -72,11 +72,15 @@ function game(){
     if (playerScore == 5) {
         alert("You won against the Computer!!!")
         playerScore = 0
-        computerScore = 0        
+        computerScore = 0
+        scoreText.textContent = "Player: " + playerScore + " Computer: " + computerScore;
+        score.appendChild(scoreText);        
     } else if (computerScore == 5) {
         alert("Game Over! You lost against the Computer ;(")
         playerScore = 0
-        computerScore = 0  
+        computerScore = 0
+        scoreText.textContent = "Player: " + playerScore + " Computer: " + computerScore;
+        score.appendChild(scoreText);  
     } else {
         scoreText.textContent = "Player: " + playerScore + " Computer: " + computerScore;
         score.appendChild(scoreText);
